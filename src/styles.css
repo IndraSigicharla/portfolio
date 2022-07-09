@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Fira";
+    src: local("FiraCode Nerd Font Mono"), url(./assets/fonts/Fira-Code-Regular-Nerd-Font-Mono.otf) format("truetype");
+}
+
+body {
+    text-align: center;
+    color: #179494;
+	background-color: #15171C ;
+    font-family: Fira;
+}
